@@ -1,7 +1,8 @@
 ```
 Sub MainSub()
-	dim colDict As Object
-	Set colDict = CreateObject("Scripting.Dictionary")
+
+	Dim colMap As Object
+    Set colMap = GetColumnHeadersMapping()
 	
 	 --- Start of main code ---
 	 Some code here
