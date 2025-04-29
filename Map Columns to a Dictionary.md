@@ -1,3 +1,15 @@
+```
+Sub MainSub()
+	dim colDict As Object
+	Set colDict = CreateObject("Scripting.Dictionary")
+	
+	 --- Start of main code ---
+	 Some code here
+	 --- End of main code ---
+End Sub
+```
+
+```
 Public Function GetColumnHeadersMapping() As Object
     Dim headers As Object
     Set headers = CreateObject("Scripting.Dictionary")
@@ -19,3 +31,4 @@ Public Function GetColumnHeadersMapping() As Object
     
     Set GetColumnHeadersMapping = headers
 End Function
+```
