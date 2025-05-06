@@ -2,7 +2,7 @@
 Sub MainSub()
 
 	Dim colMap As Object
-    Set colMap = GetColumnHeadersMapping()
+    Set colMap = MapColumnHeaders()
 	
 	 --- Start of main code ---
 	 Some code here
@@ -11,7 +11,7 @@ End Sub
 ```
 
 ```
-Public Function GetColumnHeadersMapping() As Object
+Public Function MapColumnHeaders() As Object
     Dim headers As Object
     Set headers = CreateObject("Scripting.Dictionary")
     
